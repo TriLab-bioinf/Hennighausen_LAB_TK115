@@ -1,0 +1,2 @@
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK; FastTreeMP  Wikim_164/Wikim_164_res > Wikim_164_res.tree
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK; FastTreeMP  Wikim_166/Wikim_166_res > Wikim_166_res.tree

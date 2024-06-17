@@ -1,0 +1,2 @@
+cd Wikim_164; mafft --thread $SLURM_CPUS_PER_TASK Wikim_164.fasta > Wikim_164_res
+cd Wikim_166; mafft --thread $SLURM_CPUS_PER_TASK Wikim_166.fasta > Wikim_166_res
